@@ -72,5 +72,5 @@ New York      // Mentioned in his blog at https://oliverwoodflint.wordpress.com/
 7. What is the person's password?
 
 '''
-pennYDr0pper.!  // Found hidden on his blog at the end.
+pennYDr0pper.!  // Found hidden on his blog (https://oliverwoodflint.wordpress.com/) at the end.
 '''
