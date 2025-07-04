@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Fri Jul  4 01:21:14 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oN nScan 10.10.70.38
+Nmap scan report for 10.10.70.38
+Host is up (0.30s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 0b:df:b6:10:35:b8:6e:31:28:d1:d1:dd:6f:0e:c8:b6 (RSA)
+|   256 b8:bc:87:7c:e7:06:f3:2d:0f:cd:45:de:09:82:47:17 (ECDSA)
+|_  256 05:ca:f3:c3:89:0a:10:27:74:8d:38:71:12:a2:0c:d3 (ED25519)
+80/tcp open  http    Apache httpd 2.2.22 ((Ubuntu))
+|_http-title: Lo-Fi Music
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul  4 01:21:31 2025 -- 1 IP address (1 host up) scanned in 16.81 seconds
